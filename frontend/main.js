@@ -1,5 +1,5 @@
 const counterElement = document.getElementById("visitor-count");
-const API_URL = "http://localhost:7071/api/visitor-count";
+const API_URL = "https://elias-resume-api-hvceanh6c2gngzbg.centralus-01.azurewebsites.net/api/visitor-count";
 
 async function loadVisitorCount() {
   if (!counterElement) return;
