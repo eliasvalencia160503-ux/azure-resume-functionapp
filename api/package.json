@@ -1,0 +1,14 @@
+{
+  "name": "azure-resume-functionapp-node",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/functions/*.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.3.0",
+    "@azure/functions": "^4.5.0"
+  }
+}
